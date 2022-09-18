@@ -15,5 +15,5 @@ Aunque el encontrar una solucion y poder encontrar un lugar seguro para los libr
 por ello queremos admitir la opcion de donaciones, totalmente ajeno al servicio que se presta y cuya unica utilidad es apoyar nuestra idea y poder obtener un sitio 
 seguro con todos los que apoyan nuestro proyecto 
 
-![ITC Cuatrovientos](./descarga.png)
-[Visitanos!](http://www.cuatrovientos.org)
+![¡SALVEMOS LOS LIBROS!](./images/450_100.png)
+[Nuestra Web](index.html)
