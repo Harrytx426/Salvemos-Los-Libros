@@ -15,5 +15,5 @@ Aunque el encontrar una solucion y poder encontrar un lugar seguro para los libr
 por ello queremos admitir la opcion de donaciones, totalmente ajeno al servicio que se presta y cuya unica utilidad es apoyar nuestra idea y poder obtener un sitio 
 seguro con todos los que apoyan nuestro proyecto 
 
-![¡SALVEMOS LOS LIBROS!](./images/450_100.png)
+![¡SALVEMOS LOS LIBROS!](./images/450_1000.jpg)
 [Nuestra Web](index.html)
