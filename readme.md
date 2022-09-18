@@ -15,5 +15,10 @@ La solucion que hemos encontrado a este problema es abrir una pagina para lector
 Aunque esta solucion no es mas que un minimo para el problema que tenemos actualmente y es ni mas ni menos que el espacio., el cual no asegura que todos los libros puedan estar bien guardados, 
 por ello queremos admitir la opcion de donaciones, totalmente ajeno al servicio que se presta y cuya unica utilidad es apoyar nuestra idea y mediante los ingresos obtenidos por las donaciones de los usuarios poder lograr un sitio seguro y cuidado donde poder almacenar nuestros libros y otros mas dondados por los usuarios o comprados por nuestro equipo.
 
+## Que hemos logrado
+- [x] Identificación de un problema y propuesta de solucion
+- [ ] Pagina web funcional para el usuario
+- [ ] Lugar seguro para los libros
+
 ![¡SALVEMOS LOS LIBROS!](./images/450_1000.jpg)  
 [Nuestra Web](index.html)
