@@ -7,12 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@300&family=Saira+Condensed:wght@500&display=swap');
+
         header {
             background: #79AFE0;
-            width: 20%;
-            position: fixed;
+            width: 300px;
+            position: sticky;
             z-index: 100;
-            margin-left: 75%;
+            float: right;
+            top: 0;
+            margin-right: 40px;
+            margin-top: 15px;
         }
 
         nav {
@@ -21,14 +28,12 @@
 
         nav ul {
             list-style: none;
-            overflow: hidden;
         }
 
         nav ul li {
             float: left;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 18px;
-            margin: 2px
         }
 
         nav ul li a {
@@ -36,6 +41,7 @@
             padding: 10px;
             color: #fff;
             text-decoration: none;
+            font-family: 'Saira Condensed', sans-serif;
         }
 
         nav ul li:hover {
@@ -45,6 +51,18 @@
         /* FIN DE NAVEGACION*/
         h1 {
             text-align: center;
+            font-family: 'Gentium Book Basic', serif;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: 'Abril Fatface', cursive;
+        }
+
+        p {
+            font-family: 'Nunito Sans', sans-serif;
         }
 
         .body {
@@ -114,7 +132,7 @@
     </header>
     <div class="body">
         <div class="Title">
-            <h1>Salvemos los Libros!</h1>
+            <h1>¡SALVEMOS LOS LIBROS!</h1>
             <div class="foto">
                 <img src="./images/images.jfif">
             </div>
@@ -132,6 +150,8 @@
             <p>&nbsp;</p>
             <p>Lo único que debes hacer es solicitar un libro de la lista y en caso de tener un libro anterior
                 vinculado a tu cuenta, este debería ser devuelto para poder recibir el nuevo libro.</p>
+<p><a href="https://elpais.com/elpais/2014/08/29/eps/1409306617_492729.html" target="_blank">¡No olvides revisar este articulo de el periodico "El Pais"</a></p>
+
             <hr>
         </div>
 
@@ -141,31 +161,33 @@
         <br>
         <div class="devo">
             <p>&nbsp;</p>
-            <p><strong><em>CUANDO PUEDO DEVOLVERLO?</em></strong></p>
-            <p>Cuando quieras mediante el botón de devolución o a la entrega del próximo libro.
-            </p>
-
+            <h3><em>CUANDO PUEDO DEVOLVERLO?</h3></em>
+                <p>Cuando quieras mediante el botón de devolución o a la entrega del próximo libro.
+                </p>
+                <br>
+                <p>Para mas informacion pulsa<a
+                        href="https://administracion.gob.es/pag_Home/Tu-espacio-europeo/derechos-obligaciones/ciudadanos/consumidores/compraventa/devolucion.html#-9bdb30c92ec8" target="_blank">aqui</a>
+                </p>
         </div>
         <br>
         <hr>
 
         <div class="info">
             <p>&nbsp;</p>
-            <p><strong><em>SE REALIZA ALGUN TIPO DE COBRO POR EL SERVICIO?</em></strong></p>
-            <p>No, el único pago que se realiza es en caso de querer recibir los libros en tu domicilio
-                (Costes de envio) o en caso de devolver un libro y este se encuentre en mal estado.</p>
-            <p><span style="text-decoration: underline;">¡Salvemos los Libros nunca será un servicio de
-                    pago aunque si aceptamos donaciones!</span>
-
-            </p>
-            <hr>
+            <h3><em> REALIZA ALGUN TIPO DE COBRO POR EL SERVICIO?</h3></em>
+                <p>No, el único pago que se realiza es en caso de querer recibir los libros en tu domicilio
+                    (Costes de envio) o en caso de devolver un libro y este se encuentre en mal estado.</p>
+                <p><span style="text-decoration: underline;">¡Salvemos los Libros nunca será un servicio de
+                        pago aunque si aceptamos donaciones!</span>
+                </p>
+                <hr>
         </div>
         <div class="foto">
             <img src="./images/450_1000.jpg">
         </div>
         <div class="precio">
             <p>&nbsp;</p>
-            <p><em><strong>Los precios son fijos?</strong></em></p>
+            <h3></em> LOS PRECIOS SON FIJOS </h3></em>
             <p>Dependiendo la localizacion del usuario el precio podria variar pero os dejamos una tabla
                 representativa de precios base.&nbsp;<em><strong><span style="text-decoration: underline;">El precio
                             podria
@@ -184,20 +206,22 @@
                 <tr>
                     <td>Express</td>
                     <td>24h</td>
-                    <td>12&euro;</td>
+                    <td>6.99&euro;</td>
                 </tr>
                 <tr>
                     <td>Semi</td>
-                    <td>entre 1 y 3 dias</td>
-                    <td>7.50&euro;</td>
+                    <td>entre 2 y 5 dias</td>
+                    <td>3.99&euro;</td>
                 </tr>
                 <tr>
                     <td>Base</td>
-                    <td>entre 3 dias y 1 semana</td>
-                    <td>3.50&euro;</td>
+                    <td>entre 7 dias y 2 semanas</td>
+                    <td>2.50&euro;</td>
                 </tr>
             </tbody>
         </table>
+        <p>Para mas informacion pulsa <a
+                href="https://www.amazon.es/gp/help/customer/display.html?nodeId=G6HEQUKHWJJMTW65" target="_blank">aqui</a></p>
         <p>&nbsp;</p>
     </div>
     </div>
