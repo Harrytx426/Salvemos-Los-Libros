@@ -8,7 +8,7 @@
     <title>Document</title>
     <style>
         header {
-            background: rgba(0, 0, 0, 0.7);
+            background: #79AFE0;
             width: 20%;
             position: fixed;
             z-index: 100;
@@ -27,33 +27,58 @@
         nav ul li {
             float: left;
             font-family: Arial, Helvetica, sans-serif;
-            ;
             font-size: 18px;
+            margin: 2px
         }
 
         nav ul li a {
             display: block;
-            padding: 8px;
+            padding: 10px;
             color: #fff;
             text-decoration: none;
         }
 
         nav ul li:hover {
-            background: #eca023;
+            background: #e02319;
         }
 
         /* FIN DE NAVEGACION*/
+        h1 {
+            text-align: center;
+        }
 
         .body {
             background-color: #D8D9CC;
             border: 4px solid #C8D160;
             border-color: #C8D160;
-            padding: 1rem;
-            margin: 1rem 1.8rem
+            padding: 0.5rem;
+            margin: 0.5rem 1rem
+        }
+
+        .pie {
+            background-color: #D8D9CC;
+            border: 4px solid #C8D160;
+            border-color: #C8D160;
+            padding: 0.5rem;
+            margin: 0.5rem 1rem;
+            height: 60px;
+        }
+
+        #pizquierda {
+            float: left;
+        }
+
+        #pderecha {
+            float: right;
         }
 
         .foto {
             float: right;
+        }
+
+        .devoft {
+            float: left;
+            margin-right: 4rem;
         }
 
         table {
@@ -64,10 +89,20 @@
         th {
             border: black 1px solid;
         }
+
+        img {
+            height: 10rem;
+        }
+
+        #Flechas {
+            width: 35px;
+            height: 35px;
+        }
     </style>
 </head>
 
 <body>
+    <a id="Arriba"></a>
     <header>
         <nav>
             <ul>
@@ -79,12 +114,16 @@
     </header>
     <div class="body">
         <div class="Title">
-            <h2>Salvemos los Libros!</h2>
+            <h1>Salvemos los Libros!</h1>
+            <div class="foto">
+                <img src="./images/images.jfif">
+            </div>
             <p>Salvemos los libros es un proyecto creado por estudiantes con la intención de lograr obtener un
                 servicio gratuito en el que la lectura se premia. Nuestra intención es poder obtener la entrega y
                 recolección de libros por navarra, pero a diferencia de otros servicios de pago este es totalmente
                 gratuito.</p>
             <p>&nbsp;</p>
+
             <p>Nuestra actual finalidad es poner solucion a un problema econtrado en el instituto 4Vientos, en el cual
                 tras recientes cambios, la libreria ya no se encuentra disponible, y queremos darle una segunda vida a
                 los libros que aqui se encuentran. Actualmente este es un proyecto de estudiantes por lo que nuestros
@@ -93,26 +132,36 @@
             <p>&nbsp;</p>
             <p>Lo único que debes hacer es solicitar un libro de la lista y en caso de tener un libro anterior
                 vinculado a tu cuenta, este debería ser devuelto para poder recibir el nuevo libro.</p>
+            <hr>
         </div>
-        <hr>
+
+        <div class="devoft">
+            <img src="./images/libros.jpg">
+        </div>
+        <br>
         <div class="devo">
             <p>&nbsp;</p>
             <p><strong><em>CUANDO PUEDO DEVOLVERLO?</em></strong></p>
             <p>Cuando quieras mediante el botón de devolución o a la entrega del próximo libro.
-            </p><hr>
+            </p>
+
         </div>
-        <div class="foto">
-            <img src="./images/450_1000.jpg">
-        </div>
+        <br>
+        <hr>
+
         <div class="info">
             <p>&nbsp;</p>
             <p><strong><em>SE REALIZA ALGUN TIPO DE COBRO POR EL SERVICIO?</em></strong></p>
             <p>No, el único pago que se realiza es en caso de querer recibir los libros en tu domicilio
-                (Costes de envió) o en caso de devolver un libro y este se encuentre en mal estado.</p>
+                (Costes de envio) o en caso de devolver un libro y este se encuentre en mal estado.</p>
             <p><span style="text-decoration: underline;">¡Salvemos los Libros nunca será un servicio de
                     pago aunque si aceptamos donaciones!</span>
-                <hr>
+
             </p>
+            <hr>
+        </div>
+        <div class="foto">
+            <img src="./images/450_1000.jpg">
         </div>
         <div class="precio">
             <p>&nbsp;</p>
@@ -122,6 +171,7 @@
                             podria
                             final podria sufrir cambios</span></strong></em></p>
         </div>
+
         <table class="Table">
             <thead>
                 <tr>
@@ -150,6 +200,15 @@
         </table>
         <p>&nbsp;</p>
     </div>
+    </div>
+
+    <div class="pie">
+        <p id="pizquierda"> Volver arriba <a href="#Arriba"> <img id="Flechas" src="images/Arriba.png" alt="Arriba">
+            </a> </p>
+        <p id="pderecha">Siguiente página <a href="quienes-somos.html"> <img id="Flechas" src="images/Siguiente.png"
+                    alt="Siguiente">
+            </a> </p>
+
     </div>
 </body>
 
