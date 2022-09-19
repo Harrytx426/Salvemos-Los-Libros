@@ -20,4 +20,4 @@ por ello queremos admitir la opcion de donaciones, totalmente ajeno al servicio 
 - [X] Debes seleccionar una triada de colores. Establecer cuál va a ser el color principal, secundario y el de alerta. 
 
 ![¡SALVEMOS LOS LIBROS!](./images/450_1000.jpg)  
-[Nuestra Web](index.html)
+[¡Pulsa aqui para ver nuestra web!](https://harrytx426.github.io/salvemos-los-libros/)
