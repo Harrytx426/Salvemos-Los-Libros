@@ -30,5 +30,5 @@ La solución que hemos encontrado a este problema es abrir una página para lect
 Aunque esta solución no es más que un mínimo para el problema que tenemos actualmente y es ni más ni menos que el espacio., el cual no asegura que todos los libros puedan estar bien guardados, por ello queremos admitir la opción de donaciones, totalmente ajeno al servicio que se presta y cuya única utilidad es apoyar nuestra idea, y mediante los ingresos obtenidos por las donaciones de los usuarios, poder tener un sitio seguro y cuidado donde poder almacenar nuestros libros y otros más donados por los usuarios o comprados por nuestro equipo.
 
 
-![¡SALVEMOS LOS LIBROS!](./images/450_1000.jpg)  
+![¡SALVEMOS LOS LIBROS!](./assets/images/450_1000.jpg)  
 [¡Pulsa aqui para ver nuestra web!](https://harrytx426.github.io/salvemos-los-libros/)
