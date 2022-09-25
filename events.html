@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@300&family=Saira+Condensed:wght@500&display=swap');
+
+        header {
+            background: #79AFE0;
+            width: 300px;
+            position: sticky;
+            z-index: 100;
+            float: right;
+            top: 0;
+            margin-right: 40px;
+            margin-top: 15px;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            float: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Saira Condensed', sans-serif;
+        }
+
+        nav ul li:hover {
+            background: #e02319;
+        }
+
+        /* FIN DE NAVEGACION*/
+
+        /* TABLA */
+        .tftable {
+            font-size: 12px;
+            color: #333333;
+            width: 100%;
+            border-width: 1px;
+            border-color: #729ea5;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .tftable th {
+            font-size: 12px;
+            background-color: #acc8cc;
+            border-width: 1px;
+            padding: 8px;
+            border-style: solid;
+            border-color: #729ea5;
+            text-align: left;
+        }
+
+        .tftable tr {
+            background-color: #ffffff;
+        }
+
+        .tftable td {
+            font-size: 18px;
+            border-width: 1px;
+            padding: 8px;
+            border-style: solid;
+            border-color: #729ea5;
+        }
+
+        .tftable tr:hover {
+            background-color: #ffff99;
+        }
+
+        #Green {
+            color: #C8D160;
+        }
+
+        #Red {
+            color: #e02319;
+        }
+
+        /* FIN TABLA */
+        h1 {
+            text-align: center;
+            font-family: 'Gentium Book Basic', serif;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: 'Abril Fatface', cursive;
+        }
+
+        p {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        .body {
+            background-color: #D8D9CC;
+            border: 4px solid #C8D160;
+            border-color: #C8D160;
+            padding: 0.5rem;
+            margin: 0.5rem 1rem
+        }
+
+        .pie {
+            background-color: #D8D9CC;
+            border: 4px solid #C8D160;
+            border-color: #C8D160;
+            padding: 0.5rem;
+            margin: 0.5rem 1rem;
+            height: 60px;
+        }
+
+        #pizquierda {
+            float: left;
+        }
+
+        #pderecha {
+            float: right;
+        }
+
+        .foto {
+            float: right;
+        }
+
+        .devoft {
+            float: left;
+            margin-right: 4rem;
+        }
+
+        table {
+            border: #b2b2b2 12px solid;
+        }
+
+        td,
+        th {
+            border: black 1px solid;
+        }
+
+        img {
+            height: 10rem;
+        }
+
+        #Flechas {
+            width: 35px;
+            height: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <a id="Arriba"></a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quienes somos</a></li>
+                <li><a href="log-in.html">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="body">
+        <div class="Title">
+            <h1>NUESTROS LIBROS</h1>
+            <p>Disponemos de una gran cantidad de libros disponibles, entre ellos "Harry Potter", la saga completa de
+                "Pesadillas" o "Los Cinco". Si quieres ver mas libros te dejamos aqui abajo una lista con los mas
+                demandados por los usuarios:</p>
+            <hr>
+        </div>
+
+
+        <table class="tftable" border="1">
+            <tr>
+                <th>LIBRO</th>
+                <th style="text-align:center;">INFORMACIÓN</th>
+                <th>DISPONIBILIDAD</th>
+            </tr>
+            <tr>
+                <td> <img src="./assets/images/HarryPotter2.jpg" alt="Pack Harry Potter - La serie completa"></td>
+                <td>
+                    <p> Pack Harry Potter - La serie completa</p>
+                    <p>Contando con el rediseño de cubierta a cargo del galardonado ilustrador Jonny Duddle, estos
+                        libros son una nueva propuesta, muy atractiva, para acercar Harry Potter a todos los públicos:
+                        desde coleccionistas hasta los lectores más jóvenes.
+                    </p>
+                    <p><b> Este estuche contiene las novelas:</b></p>
+                    <hr>
+                    <p><b><i>Harry Potter y la piedra filosofal</i></b></p>
+                    <p><b><i>Harry Potter y la cámara secreta</i></b></p>
+                    <p><b><i>Harry Potter y el prisionero de Azkaban</i></b></p>
+                    <p><b><i>Harry Potter y el cáliz de fuego</i></b></p>
+                    <p><b><i>Harry Potter y la Orden del Fénix</i></b></p>
+                    <p><b><i>Harry Potter y el misterio del príncipe</i></b></p>
+                    <p><b><i>Harry Potter y las reliquias de la muerte</i></b></p>
+                </td>
+                <td>
+                    <p>Estado:</p>
+                    <p id="Green">Disponible</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="./assets/images/PercyJackson.jpg"
+                        alt="Percy Jackson y los dioses del Olimpo - La serie completa"></td>
+                <td>
+                    <p>Percy Jackson y los dioses del Olimpo - La serie completa</p>
+                    <p>Acompaña a Percy a través de esta apasionante serie de aventuras sobre un mundo secreto, el mundo
+                        que los antiguos dioses griegos han recreado a nuestro alrededor en pleno siglo XXI.</p>
+                    <p><b> Este estuche contiene las novelas:</b></p>
+                    <hr>
+                    <p><b><i>El mar de los monstruos</i></b></p>
+                    <p><b><i>La maldición del titán</i></b></p>
+                    <p><b><i>La batalla del laberinto</i></b></p>
+                    <p><b><i>El último héroe del Olimpo</i></b></p>
+                </td>
+                <td>
+                    <p>Estado:</p>
+                    <p id="Red">No Disponible</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="./assets/images/Pesadillas.jpg" alt="Pesadillas - Edición completa"></td>
+                <td>
+                    <p>Pesadillas - Edición completa</p>
+                    <p>Este paquete incluye la edición completa de "Pesadillas"</p>
+                    <p><b> Este estuche contiene las novelas:</b></p>
+                    <hr>
+                    <p><b><i>La Maldición De La Tumba De La Momia</i></b></p>
+                    <p><b><i>El Espantapájaros Camina A Medianoche</i></b></p>
+                    <p><b><i>El coche embrujado</i></b></p>
+                    <p><b><i>Peligro En Las Profundidades</i></b></p>
+                    <p><b><i>Bienvenido al campamento pesadilla</i></b></p>
+                    <p><b><i>La Venganza De Los Gnomos De Jardín</i></b></p>
+                    <p><b><i>Unas Fotos De Muerte</i></b></p>
+                    <p><b><i>[...]</i></b></p>
+                </td>
+                <td>
+                    <p>Estado:</p>
+                    <p id="Red">No Disponible</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="./assets/images/LosCinco.gif"
+                        alt="Los Cinco en peligro"></td>
+                <td>
+                    <p>Los Cinco en peligro</p>
+                    <p>¡Los Cinco se lo están pasando superbién en la nieve! Pero ¿quién vive en la misteriosa casa cerca del refugio donde están? El guarda dice que hace años que nadie vive allí, pero los Cinco están seguros de haber visto un rostro angustiado y atormentado en una de las ventanas.</p>
+                    <hr>
+                    <p><b> Unico titulo actualmente disponible de "Los Cinco"</b></p>
+                </td>
+                <td>
+                    <p>Estado:</p>
+                    <p id="Green">Disponible</p>
+                </td>
+            </tr>
+        </table>
+
+
+    </div>
+    <div class="pie">
+        <p id="pizquierda"> Volver arriba <a href="#Arriba"> <img id="Flechas" src="./assets/images/Arriba.png"
+                    alt="Arriba">
+            </a> </p>
+        <p id="pderecha">Volver <a href="index.html"> <img id="Flechas" src="./assets/images/Atras.png" alt="Atras">
+            </a> </p>
+
+    </div>
+</body>
+
+</html>
