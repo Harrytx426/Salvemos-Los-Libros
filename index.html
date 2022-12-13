@@ -5,18 +5,234 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/Logo.jpg">
     <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@300&family=Saira+Condensed:wght@500&display=swap');
+
+        header {
+            background: #79AFE0;
+            width: 300px;
+            position: sticky;
+            z-index: 100;
+            float: right;
+            top: 0;
+            margin-right: 40px;
+            margin-top: 15px;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            float: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Saira Condensed', sans-serif;
+        }
+
+        nav ul li:hover {
+            background: #e02319;
+        }
+
+        /* FIN DE NAVEGACION*/
+        h1 {
+            text-align: center;
+            font-family: 'Gentium Book Basic', serif;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: 'Abril Fatface', cursive;
+        }
+
+        p {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        .body {
+            background-color: #D8D9CC;
+            border: 4px solid #C8D160;
+            border-color: #C8D160;
+            padding: 0.5rem;
+            margin: 0.5rem 1rem
+        }
+
+        .pie {
+            background-color: #D8D9CC;
+            border: 4px solid #C8D160;
+            border-color: #C8D160;
+            padding: 0.5rem;
+            margin: 0.5rem 1rem;
+            height: 60px;
+        }
+
+        #pizquierda {
+            float: left;
+        }
+
+        #pderecha {
+            float: right;
+        }
+
+        .foto {
+            float: right;
+        }
+
+        .devoft {
+            float: left;
+            margin-right: 4rem;
+        }
+
+        table {
+            border: #b2b2b2 12px solid;
+        }
+
+        td,
+        th {
+            border: black 1px solid;
+        }
+
+        img {
+            height: 10rem;
+        }
+
+        #Flechas {
+            width: 35px;
+            height: 35px;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="header">
-        <ul class="nav">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="bungalows.html">Bungalows</a></li>
-            <li><a href="reserva.html">Reservar</a></li>
-            <li><a href="info.html">Mas informacion</a></li>
-        </ul>
+    <a id="Arriba"></a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="quienes-somos.html">Quienes somos</a></li>
+                <li><a href="events.html">Libros</a></li>
+                <li><a href="log-in.html">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="body">
+        <div class="Title">
+            <h1>¡SALVEMOS LOS LIBROS!</h1>
+            <div class="foto">
+                <img src="./assets/images/images.jfif">
+            </div>
+            <p>Salvemos los libros es un proyecto creado por estudiantes con la intención de lograr obtener un
+                servicio gratuito en el que la lectura se premia. Nuestra intención es poder obtener la entrega y
+                recolección de libros por navarra, pero a diferencia de otros servicios de pago este es totalmente
+                gratuito.</p>
+            <p>&nbsp;</p>
+
+            <p>Nuestra actual finalidad es poner solución a un problema encontrado en el instituto 4Vientos, en el cual
+                tras recientes cambios, la librería ya no se encuentra disponible, y queremos darle una segunda vida a
+                los libros que aquí se encuentran. Actualmente este es un proyecto de estudiantes por lo que nuestros
+                recursos son limitados, y nuestra intención es que tras obtener ciertos ingresos por las donaciones de
+                nuestros usuarios</p>
+            <p>&nbsp;</p>
+            <p>Lo único que debes hacer es solicitar un libro de la lista y en caso de tener un libro anterior
+                vinculado a tu cuenta, este debería ser devuelto para poder recibir el nuevo libro.</p>
+            <p><a href="https://elpais.com/elpais/2014/08/29/eps/1409306617_492729.html" target="_blank">¡No olvides
+                    revisar este artículo de el periódico "El País"</a></p>
+
+            <hr>
+        </div>
+
+        <div class="devoft">
+            <img src="./assets/images/libros.jpg">
+        </div>
+        <br>
+        <div class="devo">
+            <p>&nbsp;</p>
+            <h3><em>¿CUANDO PUEDO DEVOLVERLO?</h3></em>
+            <p>Cuando quieras mediante el botón de devolución o a la entrega del próximo libro.
+            </p>
+            <br>
+            <p>Para más información pulsa <a
+                    href="https://administracion.gob.es/pag_Home/Tu-espacio-europeo/derechos-obligaciones/ciudadanos/consumidores/compraventa/devolucion.html#-9bdb30c92ec8"
+                    target="_blank"> aquí</a>
+            </p>
+        </div>
+        <br>
+        <hr>
+        <div class="info">
+            <p>&nbsp;</p>
+            <h3><em> ¿REALIZA ALGUN TIPO DE COBRO POR EL SERVICIO?</h3></em>
+            <p>No, el único pago que se realiza es en caso de querer recibir los libros en tu domicilio
+                (Costes de envio) o en caso de devolver un libro y este se encuentre en mal estado.</p>
+            <p><span style="text-decoration: underline;">¡Salvemos los Libros nunca será un servicio de
+                    pago, aunque si aceptamos donaciones!</span>
+            </p>
+            <hr>
+        </div>
+        <div class="foto">
+            <img src="./assets/images/450_1000.jpg">
+        </div>
+        <div class="precio">
+            <h3><em> ¿LOS PRECIOS SON FIJOS? </h3></em>
+            <p>Dependiendo la localización del usuario el precio podría variar, pero os dejamos una tabla
+                representativa de precios base.&nbsp;<em><strong><span style="text-decoration: underline;">El precio
+                            podría
+                            final podría sufrir cambios</span></strong></em></p>
+        </div>
+        <table class="Table">
+            <thead>
+                <tr>
+                    <th><strong>Tipo de envio</strong></th>
+                    <th><strong>Tiempo</strong></th>
+                    <th><strong>Precio</strong></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Express</td>
+                    <td>24h</td>
+                    <td>6.99&euro;</td>
+                </tr>
+                <tr>
+                    <td>Semi</td>
+                    <td>entre 2 y 5 días</td>
+                    <td>3.99&euro;</td>
+                </tr>
+                <tr>
+                    <td>Base</td>
+                    <td>entre 7 días y 2 semanas</td>
+                    <td>2.50&euro;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Para más información pulsa <a
+                href="https://www.amazon.es/gp/help/customer/display.html?nodeId=G6HEQUKHWJJMTW65" target="_blank">
+                aquí</a></p>
+    </div>
+    </div>
+
+    <div class="pie">
+        <p id="pizquierda"> Volver arriba <a href="#Arriba"> <img id="Flechas" src="./assets/images/Arriba.png" alt="Arriba">
+            </a> </p>
+        <p id="pderecha">Siguiente página <a href="events.html"> <img id="Flechas" src="./assets/images/Siguiente.png"
+                    alt="Siguiente">
+            </a> </p>
+
     </div>
 </body>
 
